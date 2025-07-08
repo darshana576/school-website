@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif
+    border:border-box;
+    
+}
+.navbar{
+height:80px;
+background-color:white;
+color:black ;
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+.navlogo{
+
+height:80px;
+width:80px;
+border-radius: 5px;
+
+}
+.logo{
+background-image: url("logod.jpg");
+background-size: cover;
+height:80px;
+width:100%;
+
+}
+.he{
+    font-size: 20px;
+}
+.address{
+    font-size:10px;
+    margin-left: 0.5rem;
+}
+a{
+   text-decoration: none;
+    color: black;
+}
+.backimg{
+    background-image: url("lfs.png");
+    background-size: cover;
+    height:600px;
+}
+.signin{
+    background-color: red;
+    height:200px;
+  padding-top: 80px;
+    text-align: center;
+}
+.teacher{
+     background-color:yellow;
+     padding-top: 80px;
+    height:200px;
+    text-align: center;
+}
+.panel{
+    text-align: center;
+}
+button{
+    background-color: skyblue;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius:0.5rem ;
+}
